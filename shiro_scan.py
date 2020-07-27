@@ -1,6 +1,5 @@
 import uuid
 import base64
-import uuid
 import subprocess
 import requests
 import sys
