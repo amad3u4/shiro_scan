@@ -98,7 +98,6 @@ def getshirourl(urls):
             	t.join()
         except:
         	pass
-requests.urllib3.disable_warnings()
 if len(sys.argv)<=1:
 	print('usage: python shiro_scan.py [filename] [num of thread]')
 	sys.exit()
